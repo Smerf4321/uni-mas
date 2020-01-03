@@ -44,17 +44,17 @@ public class SocketAgent extends MetaAgent {
         writeWorker = new WriteWorker(this);
         readWorker = new ReadWorker(this);
         readWorkerThread = new Thread(readWorker, "ReadWorker: " + this.name);
-        writeWorkerThread = new Thread(writeWorker,  "WriteWorker: " + this.name);
+        writeWorkerThread = new Thread(writeWorker, "WriteWorker: " + this.name);
     }
 
     /**
      * This function starts all threads which are used by SocketAgent
      */
-    public void start(){
+    public void start() {
         readWorkerThread.start();
         writeWorkerThread.start();
     }
-    
+
     /**
      * Overwrites the messageHandler method from the super class of MetaAgent,
      * this adds a message to the message queue.
@@ -81,7 +81,7 @@ public class SocketAgent extends MetaAgent {
         if (!readWorkerThread.getState().equals(Thread.State.TERMINATED)) {
             readWorker.stop();
             readWorkerThread.interrupt();
-            
+
             try {
                 readWorkerThread.join();
             } catch (InterruptedException ex) {
@@ -185,7 +185,7 @@ class ReadWorker implements Runnable {
                 if (messageStr.equals("#")) {
 
                     agent.writeWorker.busy = false;
-                    synchronized(agent.writeWorker){
+                    synchronized (agent.writeWorker) {
                         agent.writeWorker.notify();
                     }
                     continue;
@@ -193,7 +193,7 @@ class ReadWorker implements Runnable {
                 } else if (messageStr.startsWith("#")) {
 
                     agent.writeWorker.busy = false;
-                    synchronized(agent.writeWorker){
+                    synchronized (agent.writeWorker) {
                         agent.writeWorker.notify();
                     }
                     messageStr = messageStr.substring(1);
@@ -201,7 +201,7 @@ class ReadWorker implements Runnable {
                 } else if (messageStr.endsWith("#")) {
 
                     agent.writeWorker.busy = false;
-                    synchronized(agent.writeWorker){
+                    synchronized (agent.writeWorker) {
                         agent.writeWorker.notify();
                     }
                     messageStr = messageStr.substring(0, messageStr.length() - 1);
@@ -235,7 +235,7 @@ class WriteWorker implements Runnable {
 
     private final SocketAgent agent;
     private final ArrayBlockingQueue<Message> messageQueue;
-    volatile Boolean busy;
+    volatile boolean busy;
     volatile boolean running;
 
     public WriteWorker(SocketAgent agent) {
@@ -247,10 +247,23 @@ class WriteWorker implements Runnable {
 
     @Override
     public void run() {
+
+        while (running) {
+            synchronized (agent.writeWorker) {
+                try {
+                    agent.socket.getOutputStream().write(messageQueue.take().toString().getBytes());
+                    agent.socket.getOutputStream().flush();
+                    agent.writeWorker.wait();
+                } catch (IOException | InterruptedException ex) {
+                    Logger.getLogger(WriteWorker.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+        }
+/*
         while (running) {
             if (!busy) {
                 try {
-                    synchronized(agent.writeWorker){
+                    synchronized (agent.writeWorker) {
                         agent.socket.getOutputStream().write(messageQueue.take().toString().getBytes());
                         agent.socket.getOutputStream().flush();
                         busy = true;
@@ -260,19 +273,19 @@ class WriteWorker implements Runnable {
                     /**
                      * The connection is closed no reason to keep this thread
                      * alive.
-                     */
+                     
                     return;
                 } catch (InterruptedException ex) {
                     Logger.getLogger(WriteWorker.class.getName()).log(Level.SEVERE, null, ex);
                 }
-            }else{/*
+            } else {
                 try {
                     Thread.sleep(1);
                 } catch (InterruptedException ex) {
                     Logger.getLogger(WriteWorker.class.getName()).log(Level.SEVERE, null, ex);
-                }*/
+                }
             }
-        }
+        }*/
     }
 
     public void queueMessage(Message msg) {

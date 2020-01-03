@@ -9,7 +9,6 @@ import icametaagent.HammerUser;
 import icamessages.Message;
 import icamessages.MessageType;
 import icametaagent.Portal;
-import icametaagent.Router;
 import icametaagent.SocketAgent;
 import java.io.IOException;
 import java.net.Socket;
@@ -26,16 +25,14 @@ public class nethammer {
         Scanner keyb = new Scanner(System.in);
         
         
-        Router router = new Router("r1");
-        
-        Thread t = new Thread(router);
-        t.start();
-        
         //CMDMonitor monitor = new CMDMonitor("r1");
         //router.addObserver(monitor);
         Portal[] portals;
         
         HammerUser[] users;
+        
+        System.out.print("Enter the IP address: ");
+        String ip = keyb.nextLine();
         
         System.out.print("How many portals to create: ");
         while(!keyb.hasNextInt()){
@@ -51,7 +48,7 @@ public class nethammer {
             Portal p = new Portal("p-" + x);
             //CMDMonitor mon = new CMDMonitor("p-" + x);
             //p.addObserver(mon);
-            Socket s = new Socket("127.0.0.1", 42069);
+            Socket s = new Socket(ip, 42069);
             SocketAgent sa = new SocketAgent(p, s);
             sa.start();
             
@@ -94,7 +91,7 @@ public class nethammer {
         
         Random rand = new Random();
         
-        for(int x = 0; x < agentsno; x++){
+        for(int x = 0; x < agentsno * portalsno; x++){
             for(int y = 0; y < agentsmsgc; y++){
                 int u = rand.nextInt(portalsno * agentsno);
                 
