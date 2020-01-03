@@ -19,6 +19,8 @@ import java.awt.Dimension;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.net.Socket;
 import java.text.SimpleDateFormat;
@@ -79,6 +81,12 @@ public class ObserverInterface {
         DefaultTableModel model = (DefaultTableModel) record.getModel();
         model.setColumnCount(500);
         model.addRow(new Object[]{msg.getSender(),actualSender, msg.getRecipient(), actualRecipient, msg.getMessageType(),msg.getMessageDetails(), formatter.format(date)});
+        String str = msg.getSender() + " " + actualSender + " " + msg.getRecipient() + " " + actualRecipient + " " + msg.getMessageType() + " " + formatter.format(date) + "\n" + msg.getMessageDetails() + "\n";
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("JTableData.txt"))) {
+            writer.write(str);
+        } catch (IOException ex) {
+            Logger.getLogger(ObserverInterface.class.getName()).log(Level.SEVERE, null, ex);
+        }
         record.setModel(model);
         //auto scroll
         counter = counter++;
