@@ -280,6 +280,9 @@ public class Router extends Portal implements Runnable {
                             addAgent(s, agent);
                         }
                         break;
+                        
+                    case REMOVE_ROUTER:
+                        
                     default:
                         super.messageHandler(agent, message);
                 }

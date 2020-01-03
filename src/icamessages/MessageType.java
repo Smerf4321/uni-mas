@@ -47,6 +47,11 @@ public enum MessageType {
      */
     ADD_ROUTER,
     /**
+     * Used to communicate the breaking of connections between socket agents 
+     * of different routers.
+     */
+    REMOVE_ROUTER,
+    /**
      * Used to send the addresses of every router to the new router.
      */
     LOAD_ADDRESSES,
