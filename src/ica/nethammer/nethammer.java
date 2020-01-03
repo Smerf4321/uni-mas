@@ -34,6 +34,15 @@ public class nethammer {
         System.out.print("Enter the IP address: ");
         String ip = keyb.nextLine();
         
+        
+        System.out.println("Portals Offset: ");
+        while(!keyb.hasNextInt()){
+            keyb.nextLine();
+        }
+        
+        int portalsoffset = keyb.nextInt();
+        keyb.nextLine();
+        
         System.out.print("How many portals to create: ");
         while(!keyb.hasNextInt()){
             keyb.nextLine();
@@ -45,7 +54,7 @@ public class nethammer {
         portals = new Portal[portalsno];
         
         for(int x = 0; x < portalsno; x++){
-            Portal p = new Portal("p-" + x);
+            Portal p = new Portal("p-" + (x + portalsoffset));
             //CMDMonitor mon = new CMDMonitor("p-" + x);
             //p.addObserver(mon);
             Socket s = new Socket(ip, 42069);
@@ -56,6 +65,15 @@ public class nethammer {
             
             portals[x] = p;
         }
+        
+        
+        System.out.println("Agent Offset: ");
+        while(!keyb.hasNextInt()){
+            keyb.nextLine();
+        }
+        
+        int agentoffset = keyb.nextInt();
+        keyb.nextLine();
         
         System.out.print("How many agents to create to each portal: ");
         
@@ -70,7 +88,7 @@ public class nethammer {
         for(int x = 0; x < portalsno; x++){
             for(int y = 0; y < agentsno; y++){
                 
-                HammerUser user = new HammerUser("a-" + ((x*agentsno)+y), portals[x]);
+                HammerUser user = new HammerUser("a-" + ((x*agentsno)+y+agentoffset), portals[x]);
                 
                 portals[x].messageHandler(user, new Message(user.getName(), "GLOBAL", MessageType.ADD_METAAGENT, ""));
                 
@@ -91,14 +109,14 @@ public class nethammer {
         
         Random rand = new Random();
         
-        for(int x = 0; x < portals[0].routingTable.size(); x++){
+        for(int x = 0; x < agentsno * portalsno; x++){
             for(int y = 0; y < agentsmsgc; y++){
                 int u = rand.nextInt(portals[0].routingTable.size());
                 
                 users[x].connection.messageHandler(users[x], new Message(users[x].getName(), ("a-" + u), MessageType.USER_MSG, String.valueOf(System.currentTimeMillis())));
             }
         }
-        Thread.sleep(5000);
+        Thread.sleep(50000);
         
         
         System.exit(0);
