@@ -43,8 +43,8 @@ public class SocketAgent extends MetaAgent {
         this.socket = socket;
         writeWorker = new WriteWorker(this);
         readWorker = new ReadWorker(this);
-        readWorkerThread = new Thread(readWorker);
-        writeWorkerThread = new Thread(writeWorker);
+        readWorkerThread = new Thread(readWorker, "ReadWorker: " + this.name);
+        writeWorkerThread = new Thread(writeWorker,  "WriteWorker: " + this.name);
     }
 
     /**
@@ -185,21 +185,29 @@ class ReadWorker implements Runnable {
                 if (messageStr.equals("#")) {
 
                     agent.writeWorker.busy = false;
+                    synchronized(agent.writeWorker){
+                        agent.writeWorker.notify();
+                    }
                     continue;
 
                 } else if (messageStr.startsWith("#")) {
 
                     agent.writeWorker.busy = false;
+                    synchronized(agent.writeWorker){
+                        agent.writeWorker.notify();
+                    }
                     messageStr = messageStr.substring(1);
 
                 } else if (messageStr.endsWith("#")) {
 
                     agent.writeWorker.busy = false;
+                    synchronized(agent.writeWorker){
+                        agent.writeWorker.notify();
+                    }
                     messageStr = messageStr.substring(0, messageStr.length() - 1);
 
                 }
 
-                System.out.println(messageStr);
                 Message msg = Message.parseMessage(messageStr);
                 agent.portal.messageHandler(agent, msg);
 
@@ -232,7 +240,7 @@ class WriteWorker implements Runnable {
 
     public WriteWorker(SocketAgent agent) {
         this.agent = agent;
-        messageQueue = new ArrayBlockingQueue<>(20);
+        messageQueue = new ArrayBlockingQueue<>(200);
         busy = false;
         running = true;
     }
@@ -242,9 +250,12 @@ class WriteWorker implements Runnable {
         while (running) {
             if (!busy) {
                 try {
-                    agent.socket.getOutputStream().write(messageQueue.take().toString().getBytes());
-                    agent.socket.getOutputStream().flush();
-                    busy = true;
+                    synchronized(agent.writeWorker){
+                        agent.socket.getOutputStream().write(messageQueue.take().toString().getBytes());
+                        agent.socket.getOutputStream().flush();
+                        busy = true;
+                        agent.writeWorker.wait();
+                    }
                 } catch (IOException ex) {
                     /**
                      * The connection is closed no reason to keep this thread
@@ -254,6 +265,12 @@ class WriteWorker implements Runnable {
                 } catch (InterruptedException ex) {
                     Logger.getLogger(WriteWorker.class.getName()).log(Level.SEVERE, null, ex);
                 }
+            }else{/*
+                try {
+                    Thread.sleep(1);
+                } catch (InterruptedException ex) {
+                    Logger.getLogger(WriteWorker.class.getName()).log(Level.SEVERE, null, ex);
+                }*/
             }
         }
     }
