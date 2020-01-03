@@ -20,7 +20,7 @@ import java.util.HashMap;
  */
 public class Portal extends MetaAgent {
 
-    protected final HashMap<String, MetaAgent> routingTable;
+    public final HashMap<String, MetaAgent> routingTable;
     /**
      * This list only stores list of socketAgents which are to be sent messages
      * only unique.

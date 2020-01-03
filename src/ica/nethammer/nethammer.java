@@ -91,14 +91,16 @@ public class nethammer {
         
         Random rand = new Random();
         
-        for(int x = 0; x < agentsno * portalsno; x++){
+        for(int x = 0; x < portals[0].routingTable.size(); x++){
             for(int y = 0; y < agentsmsgc; y++){
-                int u = rand.nextInt(portalsno * agentsno);
+                int u = rand.nextInt(portals[0].routingTable.size());
                 
                 users[x].connection.messageHandler(users[x], new Message(users[x].getName(), ("a-" + u), MessageType.USER_MSG, String.valueOf(System.currentTimeMillis())));
             }
         }
-        Thread.sleep(1000);
+        Thread.sleep(5000);
+        
+        
         System.exit(0);
     }
 }
