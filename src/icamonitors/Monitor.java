@@ -29,15 +29,17 @@ public abstract class Monitor implements Observer
      * Abstract method that will be overwritten that will do something based on 
      * which class it is called from when a message is received.
      * @param message
+     * @param actualSender
      */
-    public abstract void ReceivedMessage (Message message);
+    public abstract void ReceivedMessage (Message message,String actualSender);
     
     /**
      * Abstract method that will be overwritten that will do something based on 
      * which class it is called from when a message is sent.
      * @param message
+     * @param actual
      */
-    public abstract void SentMessage (Message message);
+    public abstract void SentMessage (Message message, String actual);
     
     
     

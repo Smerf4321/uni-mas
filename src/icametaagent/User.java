@@ -41,7 +41,7 @@ public class User extends MetaAgent
      * @author v8073331
      */
     @Override
-    public void messageHandler(MetaAgent agent, Message msg) 
+    public void messageHandler(MetaAgent agent, Message msg ,String actualSender) 
     {
         if(msg.getRecipient().equals(this.name))
         {
@@ -50,7 +50,7 @@ public class User extends MetaAgent
         }
         else
         {
-            connection.messageHandler(this, new Message(this.name, msg.getSender(), MessageType.ERROR, "Message recieved by wrong agent"));
+            connection.messageHandler(this, new Message(this.name, msg.getSender(), MessageType.ERROR, "Message recieved by wrong agent"),actualSender);
         }
         
     }
@@ -67,7 +67,7 @@ public class User extends MetaAgent
             throw new IllegalArgumentException("Recipient name not correct");
         }
         Message msg = new Message(name, recipient, MessageType.USER_MSG, details);
-        connection.messageHandler(this, msg);
+        connection.messageHandler(this, msg,this.getName());
     }
     
 }

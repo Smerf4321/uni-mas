@@ -43,7 +43,7 @@ public class UserGUI
 
             @Override
             public void windowClosing(WindowEvent e) {
-                user.connection.messageHandler(user, new Message(user.getName(), "GLOBAL", MessageType.REMOVE_METAAGENT, ""));
+                user.connection.messageHandler(user, new Message(user.getName(), "GLOBAL", MessageType.REMOVE_METAAGENT,""), user.getName());
                 userFrame.setVisible(false);
             }
 

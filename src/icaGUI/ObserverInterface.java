@@ -26,6 +26,7 @@ import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JButton;
+import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
@@ -47,8 +48,9 @@ public class ObserverInterface {
 
     private final Dimension size;
     JPanel buttonsPanel;
+    protected int counter = 0;
 
-    final String[] columnNames = {"Sender", "Recipient", "Actual Recipient", "Message Type", "Date"};
+    final String[] columnNames = {"Sender", "Actual Sender", "Recipient", "Actual Recipient", "Message Type", "Message Data", "Date"};
     JTable record;
     JScrollPane scrollPane;
     final JPanel mainPanel;
@@ -67,16 +69,19 @@ public class ObserverInterface {
         mainPanel.setSize(size);
 
 
+        mainPanel.add(new JLabel("The total number of messages is: " + counter));
         mainPanel.add(scrollPane);
     }
 
-    public void update(Message msg, String actual) {
+    public void update(Message msg,String actualSender, String actualRecipient) {
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
         Date date = new Date();
         DefaultTableModel model = (DefaultTableModel) record.getModel();
-        model.addRow(new Object[]{msg.getSender(), msg.getRecipient(), actual, msg.getMessageType(), formatter.format(date)});
+        model.setColumnCount(500);
+        model.addRow(new Object[]{msg.getSender(),actualSender, msg.getRecipient(), actualRecipient, msg.getMessageType(),msg.getMessageDetails(), formatter.format(date)});
         record.setModel(model);
         //auto scroll
+        counter = counter++;
         record.changeSelection(record.getRowCount()-1, 0, false, false);
     }
 

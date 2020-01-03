@@ -79,7 +79,7 @@ public class DevMain {
                             user.getName(),
                             "GLOBAL",
                             MessageType.ADD_METAAGENT,
-                            ""));
+                            ""),user.getName());
                 } else {
                     System.out.println("User not registered to portal.");
                     System.out.println("To register user manually you must send"
@@ -102,7 +102,7 @@ public class DevMain {
                     socketAgents.add(a);
                     if (askYN("Do you want to auto register portal to router", true)) {
                         a.messageHandler(portal, new Message(portal.getName(),
-                                "GLOBAL", MessageType.ADD_PORTAL, ""));
+                                "GLOBAL", MessageType.ADD_PORTAL, ""),a.getName());
                     } else {
                         System.out.println("Portal not registered to router.");
                         System.out.println("To register portal manuall you must"
@@ -140,7 +140,7 @@ public class DevMain {
                 System.out.println("Choose node to send message from: ");
                 MetaAgent from = chooseNode();
 
-                forward.messageHandler(from, new Message(sender, reciever, type, content));
+                forward.messageHandler(from, new Message(sender, reciever, type, content),from.getName());
 
             } else if (line.equalsIgnoreCase("7") && !portals.isEmpty()) {
                 //disconnect portal from router
@@ -148,7 +148,7 @@ public class DevMain {
                 Portal portal = choosePortal();
                 SocketAgent agent = getSocketFromPortal(portal);
                 
-                agent.messageHandler(portal, new Message(portal.getName(), "GLOBAL", MessageType.REMOVE_PORTAL, ""));
+                agent.messageHandler(portal, new Message(portal.getName(), "GLOBAL", MessageType.REMOVE_PORTAL, ""),agent.getName());
                 agent.close();
                 socketAgents.remove(agent);
                 
@@ -156,7 +156,7 @@ public class DevMain {
                 //disconnect user agent
                 User user = chooseUserAgent();
                 MetaAgent forward = chooseNode();
-                forward.messageHandler(user, new Message(user.getName(), "GLOBAL", MessageType.REMOVE_METAAGENT, ""));
+                forward.messageHandler(user, new Message(user.getName(), "GLOBAL", MessageType.REMOVE_METAAGENT, ""),forward.getName());
             } else if (line.equalsIgnoreCase("9")) {
                 //disconnect socket agent
                 System.out.println("Not implemented.");

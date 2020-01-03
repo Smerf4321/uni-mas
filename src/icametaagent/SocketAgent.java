@@ -64,7 +64,7 @@ public class SocketAgent extends MetaAgent {
      * @author v8073331
      */
     @Override
-    public void messageHandler(MetaAgent agent, Message msg) {
+    public void messageHandler(MetaAgent agent, Message msg ,String actualSender) {
         writeWorker.queueMessage(msg);
     }
 
@@ -200,7 +200,7 @@ class ReadWorker implements Runnable {
 
                 System.out.println(messageStr);
                 Message msg = Message.parseMessage(messageStr);
-                agent.portal.messageHandler(agent, msg);
+                agent.portal.messageHandler(agent, msg,agent.getName());
 
                 agent.socket.getOutputStream().write("#".getBytes());
                 agent.socket.getOutputStream().flush();

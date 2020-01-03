@@ -82,8 +82,8 @@ public class Router extends Portal implements Runnable {
      * @author v8073331
      */
     @Override
-    public void messageHandler(MetaAgent agent, Message message) {
-        super.messageHandler(agent, message);
+    public void messageHandler(MetaAgent agent, Message message,String actualSender) {
+        super.messageHandler(agent, message,actualSender);
         if (message.getRecipient().equals(this.name) || message.getRecipient().equalsIgnoreCase("GLOBAL")) {
             synchronized (routingTable) {
                 switch (message.getMessageType()) {
@@ -103,8 +103,8 @@ public class Router extends Portal implements Runnable {
                          * routingTable of newly joining portal
                          */
                         Message msg = new Message(this.name, message.getSender(), MessageType.LOAD_TABLE, values);
-                        agent.messageHandler(this, msg);
-                        observers.updateSender(msg);
+                        agent.messageHandler(this, msg,actualSender);
+                        observers.updateSender(msg,actualSender);
 
                         /**
                          * Add the portal to our routing table

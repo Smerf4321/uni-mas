@@ -106,10 +106,11 @@ public class Portal extends MetaAgent {
      * @param agent
      * @param message
      * @author v8073331
+     * @param actualSender
      */
     @Override
-    public void messageHandler(MetaAgent agent, Message message) {
-        observers.updateReceiver(message);
+    public void messageHandler(MetaAgent agent, Message message, String actualSender) {
+        observers.updateReceiver(message,actualSender);
         if (message.getRecipient().equals(this.name) || message.getRecipient().equalsIgnoreCase("GLOBAL")) {
 
             synchronized (routingTable) {
@@ -169,10 +170,10 @@ public class Portal extends MetaAgent {
         } else {
             if (isMessageOriginCorrect(agent, message)) {
                 if (routingTable.containsKey(message.getRecipient())) {
-                    observers.updateSender(message);
-                    routingTable.get(message.getRecipient()).messageHandler(this, message);
+                    observers.updateSender(message,this.getName());
+                    routingTable.get(message.getRecipient()).messageHandler(this, message,actualSender);
                 } else {
-                    agent.messageHandler(this, new Message(this.getName(), message.getSender(), MessageType.ERROR, "Could not route message to " + message.getRecipient() + ": The recipient was not found"));
+                    agent.messageHandler(this, new Message(this.getName(), message.getSender(), MessageType.ERROR, "Could not route message to " + message.getRecipient() + ": The recipient was not found"), actualSender);
                 }
             } else {
                 System.out.println("Invalid origin for message: " + message.toString());
@@ -220,8 +221,8 @@ public class Portal extends MetaAgent {
     protected void forwardGlobal(MetaAgent source, Message msg) {
         for (SocketAgent sa : socketAgents) {
             if (!sa.equals(source)) {
-                observers.updateSender(msg);
-                sa.messageHandler(this, msg);
+                observers.updateSender(msg,this.getName());
+                sa.messageHandler(this, msg, this.getName());
             }
         }
     }

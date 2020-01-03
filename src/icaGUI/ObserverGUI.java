@@ -97,7 +97,7 @@ public class ObserverGUI {
                 SocketAgent a = new SocketAgent(GuiMain.router, s);
                 a.start();
 
-                a.messageHandler(GuiMain.router, new Message(GuiMain.router.getName(), "GLOBAL", MessageType.ADD_PORTAL, ""));
+                a.messageHandler(GuiMain.router, new Message(GuiMain.router.getName(), "GLOBAL", MessageType.ADD_PORTAL, ""),a.getName());
             } catch (IOException ex) {
                 Logger.getLogger(ObserverGUI.class.getName()).log(Level.SEVERE, null, ex);
                 JOptionPane.showMessageDialog(null, "Could not connect router", "Error", JOptionPane.ERROR_MESSAGE);
@@ -140,7 +140,7 @@ public class ObserverGUI {
                     SocketAgent a = new SocketAgent(portal, s);
                     a.start();
 
-                    a.messageHandler(portal, new Message(portal.getName(), "GLOBAL", MessageType.ADD_PORTAL, ""));
+                    a.messageHandler(portal, new Message(portal.getName(), "GLOBAL", MessageType.ADD_PORTAL, ""),a.getName());
                 } catch (IOException ex) {
                     Logger.getLogger(ObserverGUI.class.getName()).log(Level.SEVERE, null, ex);
                     JOptionPane.showMessageDialog(null, "Could not connect router", "Error", JOptionPane.ERROR_MESSAGE);
@@ -154,7 +154,7 @@ public class ObserverGUI {
                 String name = JOptionPane.showInputDialog("Please input the name of the user: ");
                 User agent = new User(name, portal);
 
-                portal.messageHandler(agent, new Message(agent.getName(), "GLOBAL", MessageType.ADD_METAAGENT, ""));
+                portal.messageHandler(agent, new Message(agent.getName(), "GLOBAL", MessageType.ADD_METAAGENT, ""),agent.getName());
             });
             portalsMenu.add(portalsAddAgent);
 
@@ -181,7 +181,7 @@ public class ObserverGUI {
 
     }
 
-    public void updateTable(Message msg, String actual) {
-        iFace.update(msg, actual);
+    public void updateTable(Message msg,String actualSender, String actualRecipient) {
+        iFace.update(msg, actualSender, actualRecipient);
     }
 }

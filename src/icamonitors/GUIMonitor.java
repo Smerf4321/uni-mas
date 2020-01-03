@@ -24,13 +24,13 @@ public class GUIMonitor extends Monitor {
     }
 
     @Override
-    public void ReceivedMessage(Message message) {
-        gui.updateTable(message, agentName);
+    public void ReceivedMessage(Message message,String actualSender) {
+        gui.updateTable(message,actualSender, agentName);
     }
 
     @Override
-    public void SentMessage(Message message) {
-        gui.updateTable(message, agentName);
+    public void SentMessage(Message message,String actualSender) {
+        gui.updateTable(message, actualSender, agentName);
     }
 
     @Override

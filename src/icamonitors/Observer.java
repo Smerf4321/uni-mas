@@ -68,10 +68,10 @@ public class Observer {
      * @author v8036651
      * @author v8073331
      */
-    public void updateSender(Message msg) {
+    public void updateSender(Message msg,String actualSender) {
         observers.forEach((Monitor o) -> {
             try {
-                o.SentMessage(msg);
+                o.SentMessage(msg,actualSender);
             } catch (Exception e) {
             }
         });
@@ -84,11 +84,12 @@ public class Observer {
      * @param msg
      * @author v8036651
      * @author v8073331
+     * @param actualSender
      */
-    public void updateReceiver(Message msg) {
+    public void updateReceiver(Message msg, String actualSender) {
         observers.forEach((Monitor o) -> {
             try {
-                o.ReceivedMessage(msg);
+                o.ReceivedMessage(msg,actualSender);
             } catch (Exception e) {
             }
         });

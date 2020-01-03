@@ -43,8 +43,9 @@ public abstract class MetaAgent{
      * @param agent
      * @param msg 
      * @author v8036651
+     * @param actualSender
      */
-    public abstract void messageHandler(MetaAgent agent, Message msg);
+    public abstract void messageHandler(MetaAgent agent, Message msg, String actualSender);
     
     /**
      * Validates whether the user name is allowed

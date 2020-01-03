@@ -34,7 +34,7 @@ public class CMDMonitor extends Monitor
      * @author v8036651
      */
     @Override
-    public void ReceivedMessage (Message message)
+    public void ReceivedMessage (Message message,String actualSender)
     {
         System.out.println("+==========================================+");
         System.out.println("|This message was received from:           |");
@@ -59,7 +59,7 @@ public class CMDMonitor extends Monitor
      * @author v8036651
      */
     @Override
-    public void SentMessage (Message message)
+    public void SentMessage (Message message,String actualSender)
     {
         System.out.println("+==========================================+");
         System.out.println("|This message was sent from:               |");
@@ -82,11 +82,15 @@ public class CMDMonitor extends Monitor
      * @param message 
      * @author v8036651
      */
-    @Override
-    public void update(Observable o, Object message) 
+    public void update(Observable o, Object message,String actualSender) 
     {
         System.out.println("Hello world");
-        this.ReceivedMessage((Message)message);
+        this.ReceivedMessage((Message)message,actualSender);
+    }
+
+    @Override
+    public void update(Observable arg0, Object arg1) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
 
