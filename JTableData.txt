@@ -1,0 +1,1529 @@
+Message Sender: p1 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 20:55:31 Message Number:1
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p1 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:55:31 Message Number:2
+ Message Details:r1
+
+Message Sender: r1 Actual Sender:Socket from: p1 Message Recipient:p1 Actual Recipient:p1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:55:31 Message Number:3
+ Message Details:r1
+Message Sender: p1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:31 Message Number:4
+ Message Details:
+Message Sender: p1 Actual Sender:Socket from: p1 Message Recipient:GLOBAL Actual Recipient:p1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:31 Message Number:5
+ Message Details:
+Message Sender: p2 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 20:55:34 Message Number:6
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p2 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:55:34 Message Number:7
+ Message Details:p1
+r1
+
+Message Sender: p2 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:34 Message Number:8
+ Message Details:
+Message Sender: p2 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:34 Message Number:9
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p2 Message Recipient:p2 Actual Recipient:p2 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:55:34 Message Number:10
+ Message Details:p1
+r1
+Message Sender: p2 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:34 Message Number:11
+ Message Details:
+Message Sender: p2 Actual Sender:Socket from: p1 Message Recipient:GLOBAL Actual Recipient:p1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:34 Message Number:12
+ Message Details:
+Message Sender: p3 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 20:55:38 Message Number:13
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p3 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:55:38 Message Number:14
+ Message Details:p1
+p2
+r1
+
+Message Sender: r1 Actual Sender:Socket from: p3 Message Recipient:p3 Actual Recipient:p3 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:55:38 Message Number:15
+ Message Details:p1
+p2
+r1
+Message Sender: p3 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:38 Message Number:16
+ Message Details:
+Message Sender: p3 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:38 Message Number:17
+ Message Details:
+Message Sender: p3 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:38 Message Number:18
+ Message Details:
+Message Sender: p3 Actual Sender:Socket from: p1 Message Recipient:GLOBAL Actual Recipient:p1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:38 Message Number:19
+ Message Details:
+Message Sender: p3 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:38 Message Number:20
+ Message Details:
+Message Sender: p3 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:38 Message Number:21
+ Message Details:
+Message Sender: p5 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 20:55:43 Message Number:22
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p5 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:55:43 Message Number:23
+ Message Details:p1
+p2
+p3
+r1
+
+Message Sender: r1 Actual Sender:Socket from: p5 Message Recipient:p5 Actual Recipient:p5 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:55:43 Message Number:24
+ Message Details:p1
+p2
+p3
+r1
+Message Sender: p5 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:43 Message Number:25
+ Message Details:
+Message Sender: p5 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:43 Message Number:26
+ Message Details:
+Message Sender: p5 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:43 Message Number:27
+ Message Details:
+Message Sender: p5 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:43 Message Number:28
+ Message Details:
+Message Sender: p5 Actual Sender:Socket from: p1 Message Recipient:GLOBAL Actual Recipient:p1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:43 Message Number:30
+ Message Details:
+Message Sender: p5 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:43 Message Number:30
+ Message Details:
+Message Sender: p5 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:43 Message Number:31
+ Message Details:
+Message Sender: p5 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:55:43 Message Number:32
+ Message Details:
+Message Sender: p6 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 20:56:10 Message Number:33
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p6 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:56:10 Message Number:34
+ Message Details:p1
+p2
+p3
+p5
+r1
+
+Message Sender: p6 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:10 Message Number:35
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p6 Message Recipient:p6 Actual Recipient:p6 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:56:10 Message Number:36
+ Message Details:p1
+p2
+p3
+p5
+r1
+Message Sender: p6 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:10 Message Number:37
+ Message Details:
+Message Sender: p6 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:10 Message Number:38
+ Message Details:
+Message Sender: p6 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:10 Message Number:39
+ Message Details:
+Message Sender: p6 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:10 Message Number:40
+ Message Details:
+Message Sender: p6 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:10 Message Number:41
+ Message Details:
+Message Sender: p6 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:10 Message Number:42
+ Message Details:
+Message Sender: p6 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:10 Message Number:43
+ Message Details:
+Message Sender: p6 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:10 Message Number:44
+ Message Details:
+Message Sender: p6 Actual Sender:Socket from: p1 Message Recipient:GLOBAL Actual Recipient:p1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:10 Message Number:45
+ Message Details:
+Message Sender: p7 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 20:56:14 Message Number:46
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p7 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:56:14 Message Number:47
+ Message Details:p1
+p2
+p3
+p5
+p6
+r1
+
+Message Sender: r1 Actual Sender:Socket from: p7 Message Recipient:p7 Actual Recipient:p7 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:56:14 Message Number:48
+ Message Details:p1
+p2
+p3
+p5
+p6
+r1
+Message Sender: p7 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:14 Message Number:49
+ Message Details:
+Message Sender: p7 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:14 Message Number:50
+ Message Details:
+Message Sender: p7 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:14 Message Number:51
+ Message Details:
+Message Sender: p7 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:14 Message Number:52
+ Message Details:
+Message Sender: p7 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:14 Message Number:53
+ Message Details:
+Message Sender: p7 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:18 Message Number:54
+ Message Details:
+Message Sender: p7 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:18 Message Number:55
+ Message Details:
+Message Sender: p7 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:18 Message Number:56
+ Message Details:
+Message Sender: p7 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:18 Message Number:57
+ Message Details:
+Message Sender: p7 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:18 Message Number:58
+ Message Details:
+Message Sender: p7 Actual Sender:Socket from: p1 Message Recipient:GLOBAL Actual Recipient:p1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:18 Message Number:59
+ Message Details:
+Message Sender: p7 Actual Sender:Socket from: p7 Message Recipient:GLOBAL Actual Recipient:p7 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:18 Message Number:60
+ Message Details:
+Message Sender: p8 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 20:56:19 Message Number:61
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p8 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:56:19 Message Number:62
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+r1
+
+Message Sender: r1 Actual Sender:Socket from: p8 Message Recipient:p8 Actual Recipient:p8 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:56:19 Message Number:63
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+r1
+Message Sender: p8 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:19 Message Number:64
+ Message Details:
+Message Sender: p8 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:19 Message Number:65
+ Message Details:
+Message Sender: p8 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:19 Message Number:66
+ Message Details:
+Message Sender: p8 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:19 Message Number:67
+ Message Details:
+Message Sender: p8 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:24 Message Number:68
+ Message Details:
+Message Sender: p8 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:24 Message Number:69
+ Message Details:
+Message Sender: p8 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:24 Message Number:70
+ Message Details:
+Message Sender: p8 Actual Sender:Socket from: p1 Message Recipient:GLOBAL Actual Recipient:p1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:24 Message Number:72
+ Message Details:
+Message Sender: p8 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:24 Message Number:71
+ Message Details:
+Message Sender: p8 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:24 Message Number:73
+ Message Details:
+Message Sender: p8 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:24 Message Number:74
+ Message Details:
+Message Sender: p8 Actual Sender:Socket from: p8 Message Recipient:GLOBAL Actual Recipient:p8 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:29 Message Number:75
+ Message Details:
+Message Sender: p8 Actual Sender:Socket from: p7 Message Recipient:GLOBAL Actual Recipient:p7 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:29 Message Number:76
+ Message Details:
+Message Sender: p8 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:29 Message Number:77
+ Message Details:
+Message Sender: p9 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 20:56:29 Message Number:78
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p9 Message Recipient:p9 Actual Recipient:p9 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:56:29 Message Number:79
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+r1
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p9 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:56:29 Message Number:80
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+r1
+
+Message Sender: p9 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:29 Message Number:81
+ Message Details:
+Message Sender: p9 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:34 Message Number:82
+ Message Details:
+Message Sender: p9 Actual Sender:Socket from: p1 Message Recipient:GLOBAL Actual Recipient:p1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:34 Message Number:83
+ Message Details:
+Message Sender: p9 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:34 Message Number:84
+ Message Details:
+Message Sender: p9 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:34 Message Number:85
+ Message Details:
+Message Sender: p9 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:34 Message Number:86
+ Message Details:
+Message Sender: p9 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:34 Message Number:87
+ Message Details:
+Message Sender: p9 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:34 Message Number:88
+ Message Details:
+Message Sender: p9 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:34 Message Number:89
+ Message Details:
+Message Sender: p9 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:40 Message Number:90
+ Message Details:
+Message Sender: p9 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:40 Message Number:91
+ Message Details:
+Message Sender: p9 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:40 Message Number:92
+ Message Details:
+Message Sender: p9 Actual Sender:Socket from: p7 Message Recipient:GLOBAL Actual Recipient:p7 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:40 Message Number:93
+ Message Details:
+Message Sender: p9 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:40 Message Number:94
+ Message Details:
+Message Sender: p9 Actual Sender:Socket from: p8 Message Recipient:GLOBAL Actual Recipient:p8 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:40 Message Number:95
+ Message Details:
+Message Sender: p9 Actual Sender:Socket from: p9 Message Recipient:GLOBAL Actual Recipient:p9 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:40 Message Number:96
+ Message Details:
+Message Sender: p10 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 20:56:40 Message Number:97
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p10 Message Recipient:p10 Actual Recipient:p10 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:56:40 Message Number:99
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+r1
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p10 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:56:40 Message Number:98
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+r1
+
+Message Sender: p10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:40 Message Number:100
+ Message Details:
+Message Sender: p10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:40 Message Number:101
+ Message Details:
+Message Sender: p10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:40 Message Number:102
+ Message Details:
+Message Sender: p10 Actual Sender:Socket from: p1 Message Recipient:GLOBAL Actual Recipient:p1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:40 Message Number:103
+ Message Details:
+Message Sender: p10 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:53 Message Number:104
+ Message Details:
+Message Sender: p10 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:53 Message Number:105
+ Message Details:
+Message Sender: p10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:53 Message Number:106
+ Message Details:
+Message Sender: p10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:53 Message Number:107
+ Message Details:
+Message Sender: p10 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:53 Message Number:108
+ Message Details:
+Message Sender: p10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:53 Message Number:109
+ Message Details:
+Message Sender: p10 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:53 Message Number:110
+ Message Details:
+Message Sender: p10 Actual Sender:Socket from: p7 Message Recipient:GLOBAL Actual Recipient:p7 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:56:53 Message Number:111
+ Message Details:
+Message Sender: p10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:01 Message Number:112
+ Message Details:
+Message Sender: p10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:01 Message Number:113
+ Message Details:
+Message Sender: p10 Actual Sender:Socket from: p8 Message Recipient:GLOBAL Actual Recipient:p8 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:01 Message Number:114
+ Message Details:
+Message Sender: p10 Actual Sender:Socket from: p9 Message Recipient:GLOBAL Actual Recipient:p9 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:01 Message Number:115
+ Message Details:
+Message Sender: p10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:01 Message Number:116
+ Message Details:
+Message Sender: p10 Actual Sender:Socket from: p10 Message Recipient:GLOBAL Actual Recipient:p10 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:01 Message Number:117
+ Message Details:
+Message Sender: a10 Actual Sender:a10 Message Recipient:GLOBAL Actual Recipient:p10 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:22 Message Number:118
+ Message Details:
+Message Sender: a10 Actual Sender:p10 Message Recipient:GLOBAL Actual Recipient:p10 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:22 Message Number:119
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:22 Message Number:120
+ Message Details:
+Message Sender: a10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:22 Message Number:121
+ Message Details:
+Message Sender: a10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:22 Message Number:122
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: p1 Message Recipient:GLOBAL Actual Recipient:p1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:22 Message Number:123
+ Message Details:
+Message Sender: a10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:22 Message Number:124
+ Message Details:
+Message Sender: a10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:22 Message Number:125
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:22 Message Number:126
+ Message Details:
+Message Sender: a10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:22 Message Number:128
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:22 Message Number:129
+ Message Details:
+Message Sender: a10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:22 Message Number:130
+ Message Details:
+Message Sender: a10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:22 Message Number:131
+ Message Details:
+Message Sender: a10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:22 Message Number:132
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:22 Message Number:133
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:22 Message Number:127
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: p8 Message Recipient:GLOBAL Actual Recipient:p8 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:22 Message Number:134
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: p7 Message Recipient:GLOBAL Actual Recipient:p7 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:22 Message Number:135
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: p9 Message Recipient:GLOBAL Actual Recipient:p9 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:22 Message Number:136
+ Message Details:
+Message Sender: a1 Actual Sender:a1 Message Recipient:GLOBAL Actual Recipient:p1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:42 Message Number:137
+ Message Details:
+Message Sender: a1 Actual Sender:p1 Message Recipient:GLOBAL Actual Recipient:p1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:42 Message Number:138
+ Message Details:
+Message Sender: a1 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:42 Message Number:139
+ Message Details:
+Message Sender: a1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:42 Message Number:140
+ Message Details:
+Message Sender: a1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:42 Message Number:141
+ Message Details:
+Message Sender: a1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:42 Message Number:142
+ Message Details:
+Message Sender: a1 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:42 Message Number:143
+ Message Details:
+Message Sender: a1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:42 Message Number:144
+ Message Details:
+Message Sender: a1 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:52 Message Number:145
+ Message Details:
+Message Sender: a1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:52 Message Number:147
+ Message Details:
+Message Sender: a1 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:52 Message Number:146
+ Message Details:
+Message Sender: a1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:52 Message Number:148
+ Message Details:
+Message Sender: a1 Actual Sender:Socket from: p7 Message Recipient:GLOBAL Actual Recipient:p7 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:52 Message Number:149
+ Message Details:
+Message Sender: a1 Actual Sender:Socket from: p8 Message Recipient:GLOBAL Actual Recipient:p8 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:52 Message Number:151
+ Message Details:
+Message Sender: a1 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:52 Message Number:150
+ Message Details:
+Message Sender: a1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:53 Message Number:152
+ Message Details:
+Message Sender: a1 Actual Sender:a1 Message Recipient:a10 Actual Recipient:p1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:57:53 Message Number:153
+ Message Details:hi
+Message Sender: a1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:53 Message Number:154
+ Message Details:
+Message Sender: a1 Actual Sender:Socket from: p9 Message Recipient:GLOBAL Actual Recipient:p9 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:53 Message Number:155
+ Message Details:
+Message Sender: a1 Actual Sender:Socket from: p10 Message Recipient:GLOBAL Actual Recipient:p10 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:57:53 Message Number:156
+ Message Details:
+Message Sender: a1 Actual Sender:p1 Message Recipient:a10 Actual Recipient:p1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:57:53 Message Number:157
+ Message Details:hi
+Message Sender: a1 Actual Sender:Socket from: r1 Message Recipient:a10 Actual Recipient:r1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:57:53 Message Number:158
+ Message Details:hi
+Message Sender: a1 Actual Sender:r1 Message Recipient:a10 Actual Recipient:r1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:57:53 Message Number:159
+ Message Details:hi
+Message Sender: a1 Actual Sender:Socket from: p10 Message Recipient:a10 Actual Recipient:p10 Message Type:USER_MSG Message Date and Time:03/01/2020 20:57:56 Message Number:160
+ Message Details:hi
+Message Sender: a1 Actual Sender:p10 Message Recipient:a10 Actual Recipient:p10 Message Type:USER_MSG Message Date and Time:03/01/2020 20:57:56 Message Number:161
+ Message Details:hi
+Message Sender: a10 Actual Sender:a10 Message Recipient:a1 Actual Recipient:p10 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:01 Message Number:162
+ Message Details:
+Message Sender: a10 Actual Sender:p10 Message Recipient:a1 Actual Recipient:p10 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:01 Message Number:163
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: r1 Message Recipient:a1 Actual Recipient:r1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:01 Message Number:164
+ Message Details:
+Message Sender: a10 Actual Sender:r1 Message Recipient:a1 Actual Recipient:r1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:01 Message Number:165
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: p1 Message Recipient:a1 Actual Recipient:p1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:01 Message Number:166
+ Message Details:
+Message Sender: a10 Actual Sender:p1 Message Recipient:a1 Actual Recipient:p1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:01 Message Number:167
+ Message Details:
+Message Sender: a10 Actual Sender:a10 Message Recipient:a1 Actual Recipient:p10 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:12 Message Number:168
+ Message Details:hi
+Message Sender: a10 Actual Sender:p10 Message Recipient:a1 Actual Recipient:p10 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:12 Message Number:169
+ Message Details:hi
+Message Sender: a10 Actual Sender:Socket from: r1 Message Recipient:a1 Actual Recipient:r1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:12 Message Number:170
+ Message Details:hi
+Message Sender: a10 Actual Sender:r1 Message Recipient:a1 Actual Recipient:r1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:12 Message Number:171
+ Message Details:hi
+Message Sender: a10 Actual Sender:Socket from: p1 Message Recipient:a1 Actual Recipient:p1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:12 Message Number:172
+ Message Details:hi
+Message Sender: a10 Actual Sender:p1 Message Recipient:a1 Actual Recipient:p1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:12 Message Number:173
+ Message Details:hi
+Message Sender: a10 Actual Sender:a10 Message Recipient:a1 Actual Recipient:p10 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:17 Message Number:174
+ Message Details:hi
+Message Sender: a10 Actual Sender:p10 Message Recipient:a1 Actual Recipient:p10 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:17 Message Number:175
+ Message Details:hi
+Message Sender: a10 Actual Sender:Socket from: r1 Message Recipient:a1 Actual Recipient:r1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:17 Message Number:176
+ Message Details:hi
+Message Sender: a10 Actual Sender:r1 Message Recipient:a1 Actual Recipient:r1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:17 Message Number:177
+ Message Details:hi
+Message Sender: a10 Actual Sender:Socket from: p1 Message Recipient:a1 Actual Recipient:p1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:17 Message Number:178
+ Message Details:hi
+Message Sender: a10 Actual Sender:p1 Message Recipient:a1 Actual Recipient:p1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:17 Message Number:179
+ Message Details:hi
+Message Sender: a10 Actual Sender:a10 Message Recipient:a1 Actual Recipient:p10 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:18 Message Number:180
+ Message Details:hi
+Message Sender: a10 Actual Sender:p10 Message Recipient:a1 Actual Recipient:p10 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:18 Message Number:181
+ Message Details:hi
+Message Sender: a10 Actual Sender:Socket from: r1 Message Recipient:a1 Actual Recipient:r1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:18 Message Number:182
+ Message Details:hi
+Message Sender: a10 Actual Sender:r1 Message Recipient:a1 Actual Recipient:r1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:18 Message Number:183
+ Message Details:hi
+Message Sender: a10 Actual Sender:Socket from: p1 Message Recipient:a1 Actual Recipient:p1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:18 Message Number:184
+ Message Details:hi
+Message Sender: a10 Actual Sender:p1 Message Recipient:a1 Actual Recipient:p1 Message Type:USER_MSG Message Date and Time:03/01/2020 20:58:18 Message Number:185
+ Message Details:hi
+Message Sender: a10 Actual Sender:a10 Message Recipient:GLOBAL Actual Recipient:p10 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:29 Message Number:186
+ Message Details:
+Message Sender: a10 Actual Sender:p10 Message Recipient:GLOBAL Actual Recipient:p10 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:29 Message Number:187
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:29 Message Number:188
+ Message Details:
+Message Sender: a10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:29 Message Number:189
+ Message Details:
+Message Sender: a10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:29 Message Number:190
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: p1 Message Recipient:GLOBAL Actual Recipient:p1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:29 Message Number:191
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:29 Message Number:192
+ Message Details:
+Message Sender: a10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:29 Message Number:193
+ Message Details:
+Message Sender: a10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:29 Message Number:194
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:29 Message Number:195
+ Message Details:
+Message Sender: a10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:29 Message Number:196
+ Message Details:
+Message Sender: a10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:29 Message Number:197
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:29 Message Number:198
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:29 Message Number:199
+ Message Details:
+Message Sender: a10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:29 Message Number:200
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: p7 Message Recipient:GLOBAL Actual Recipient:p7 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:29 Message Number:201
+ Message Details:
+Message Sender: a10 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:29 Message Number:202
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: p8 Message Recipient:GLOBAL Actual Recipient:p8 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:29 Message Number:203
+ Message Details:
+Message Sender: a10 Actual Sender:Socket from: p9 Message Recipient:GLOBAL Actual Recipient:p9 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:29 Message Number:204
+ Message Details:
+Message Sender: a1 Actual Sender:a1 Message Recipient:GLOBAL Actual Recipient:p1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:30 Message Number:205
+ Message Details:
+Message Sender: a1 Actual Sender:p1 Message Recipient:GLOBAL Actual Recipient:p1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:30 Message Number:206
+ Message Details:
+Message Sender: a1 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:30 Message Number:207
+ Message Details:
+Message Sender: a1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:30 Message Number:208
+ Message Details:
+Message Sender: a1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:30 Message Number:209
+ Message Details:
+Message Sender: a1 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:30 Message Number:210
+ Message Details:
+Message Sender: a1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:30 Message Number:211
+ Message Details:
+Message Sender: a1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:30 Message Number:212
+ Message Details:
+Message Sender: a1 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:30 Message Number:213
+ Message Details:
+Message Sender: a1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:30 Message Number:214
+ Message Details:
+Message Sender: a1 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:35 Message Number:215
+ Message Details:
+Message Sender: a1 Actual Sender:Socket from: p7 Message Recipient:GLOBAL Actual Recipient:p7 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:35 Message Number:216
+ Message Details:
+Message Sender: a1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:35 Message Number:217
+ Message Details:
+Message Sender: a1 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:35 Message Number:218
+ Message Details:
+Message Sender: a1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:35 Message Number:219
+ Message Details:
+Message Sender: a1 Actual Sender:Socket from: p8 Message Recipient:GLOBAL Actual Recipient:p8 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:35 Message Number:220
+ Message Details:
+Message Sender: a1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:35 Message Number:221
+ Message Details:
+Message Sender: a1 Actual Sender:Socket from: p9 Message Recipient:GLOBAL Actual Recipient:p9 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:38 Message Number:222
+ Message Details:
+Message Sender: a1 Actual Sender:Socket from: p10 Message Recipient:GLOBAL Actual Recipient:p10 Message Type:REMOVE_METAAGENT Message Date and Time:03/01/2020 20:58:38 Message Number:223
+ Message Details:
+Message Sender: p11 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 20:58:56 Message Number:224
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p11 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:58:57 Message Number:225
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+r1
+
+Message Sender: r1 Actual Sender:Socket from: p11 Message Recipient:p11 Actual Recipient:p11 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:58:57 Message Number:226
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+r1
+Message Sender: p11 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:58:57 Message Number:227
+ Message Details:
+Message Sender: p11 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:58:57 Message Number:228
+ Message Details:
+Message Sender: p11 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:58:57 Message Number:229
+ Message Details:
+Message Sender: p11 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:58:57 Message Number:230
+ Message Details:
+Message Sender: p11 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:58:57 Message Number:231
+ Message Details:
+Message Sender: p11 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:58:59 Message Number:232
+ Message Details:
+Message Sender: p11 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:58:59 Message Number:233
+ Message Details:
+Message Sender: p11 Actual Sender:Socket from: p1 Message Recipient:GLOBAL Actual Recipient:p1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:58:59 Message Number:234
+ Message Details:
+Message Sender: p11 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:58:59 Message Number:235
+ Message Details:
+Message Sender: p11 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:58:59 Message Number:236
+ Message Details:
+Message Sender: p11 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:58:59 Message Number:237
+ Message Details:
+Message Sender: p11 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:58:59 Message Number:238
+ Message Details:
+Message Sender: p11 Actual Sender:Socket from: p7 Message Recipient:GLOBAL Actual Recipient:p7 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:02 Message Number:239
+ Message Details:
+Message Sender: p11 Actual Sender:Socket from: p8 Message Recipient:GLOBAL Actual Recipient:p8 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:02 Message Number:240
+ Message Details:
+Message Sender: p11 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:02 Message Number:241
+ Message Details:
+Message Sender: p11 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:02 Message Number:242
+ Message Details:
+Message Sender: p11 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:02 Message Number:243
+ Message Details:
+Message Sender: p11 Actual Sender:Socket from: p10 Message Recipient:GLOBAL Actual Recipient:p10 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:02 Message Number:244
+ Message Details:
+Message Sender: p11 Actual Sender:Socket from: p11 Message Recipient:GLOBAL Actual Recipient:p11 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:02 Message Number:245
+ Message Details:
+Message Sender: p11 Actual Sender:Socket from: p9 Message Recipient:GLOBAL Actual Recipient:p9 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:02 Message Number:246
+ Message Details:
+Message Sender: p12 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 20:59:10 Message Number:247
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p12 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:59:10 Message Number:248
+ Message Details:p1
+p11
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+r1
+
+Message Sender: r1 Actual Sender:Socket from: p12 Message Recipient:p12 Actual Recipient:p12 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:59:10 Message Number:249
+ Message Details:p1
+p11
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+r1
+Message Sender: p12 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:10 Message Number:250
+ Message Details:
+Message Sender: p12 Actual Sender:Socket from: p1 Message Recipient:GLOBAL Actual Recipient:p1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:10 Message Number:251
+ Message Details:
+Message Sender: p12 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:10 Message Number:252
+ Message Details:
+Message Sender: p12 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:16 Message Number:253
+ Message Details:
+Message Sender: p13 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 20:59:16 Message Number:255
+ Message Details:
+Message Sender: p12 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:16 Message Number:254
+ Message Details:
+Message Sender: p12 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:16 Message Number:256
+ Message Details:
+Message Sender: p12 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:16 Message Number:257
+ Message Details:
+Message Sender: p12 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:16 Message Number:258
+ Message Details:
+Message Sender: p12 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:16 Message Number:259
+ Message Details:
+Message Sender: p12 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:16 Message Number:260
+ Message Details:
+Message Sender: p14 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 20:59:21 Message Number:261
+ Message Details:
+Message Sender: p12 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:21 Message Number:262
+ Message Details:
+Message Sender: p12 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:21 Message Number:263
+ Message Details:
+Message Sender: p12 Actual Sender:Socket from: p7 Message Recipient:GLOBAL Actual Recipient:p7 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:21 Message Number:264
+ Message Details:
+Message Sender: p12 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:21 Message Number:265
+ Message Details:
+Message Sender: p12 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:21 Message Number:266
+ Message Details:
+Message Sender: p12 Actual Sender:Socket from: p8 Message Recipient:GLOBAL Actual Recipient:p8 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:21 Message Number:267
+ Message Details:
+Message Sender: p12 Actual Sender:Socket from: p9 Message Recipient:GLOBAL Actual Recipient:p9 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:28 Message Number:270
+ Message Details:
+Message Sender: p12 Actual Sender:Socket from: p10 Message Recipient:GLOBAL Actual Recipient:p10 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:28 Message Number:269
+ Message Details:
+Message Sender: p15 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 20:59:29 Message Number:271
+ Message Details:
+Message Sender: p12 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:28 Message Number:268
+ Message Details:
+Message Sender: p12 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:30 Message Number:272
+ Message Details:
+Message Sender: p12 Actual Sender:Socket from: p11 Message Recipient:GLOBAL Actual Recipient:p11 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:30 Message Number:273
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p15 Message Recipient:p15 Actual Recipient:p15 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:59:30 Message Number:274
+ Message Details:p12
+p1
+p11
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+r1
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p15 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:59:30 Message Number:275
+ Message Details:p12
+p1
+p11
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+r1
+
+Message Sender: p15 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:34 Message Number:276
+ Message Details:
+Message Sender: p12 Actual Sender:Socket from: p12 Message Recipient:GLOBAL Actual Recipient:p12 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:34 Message Number:277
+ Message Details:
+Message Sender: p15 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:34 Message Number:278
+ Message Details:
+Message Sender: p15 Actual Sender:Socket from: p1 Message Recipient:GLOBAL Actual Recipient:p1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:34 Message Number:279
+ Message Details:
+Message Sender: p15 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:34 Message Number:280
+ Message Details:
+Message Sender: p15 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:34 Message Number:281
+ Message Details:
+Message Sender: p15 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:34 Message Number:282
+ Message Details:
+Message Sender: p15 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:41 Message Number:283
+ Message Details:
+Message Sender: p15 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:41 Message Number:285
+ Message Details:
+Message Sender: p15 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:41 Message Number:284
+ Message Details:
+Message Sender: p15 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:41 Message Number:286
+ Message Details:
+Message Sender: p15 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:41 Message Number:287
+ Message Details:
+Message Sender: p15 Actual Sender:Socket from: p7 Message Recipient:GLOBAL Actual Recipient:p7 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:41 Message Number:288
+ Message Details:
+Message Sender: p15 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:41 Message Number:289
+ Message Details:
+Message Sender: p15 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:46 Message Number:290
+ Message Details:
+Message Sender: p15 Actual Sender:Socket from: p8 Message Recipient:GLOBAL Actual Recipient:p8 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:46 Message Number:291
+ Message Details:
+Message Sender: p15 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:46 Message Number:292
+ Message Details:
+Message Sender: p15 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:46 Message Number:293
+ Message Details:
+Message Sender: p15 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:46 Message Number:294
+ Message Details:
+Message Sender: p15 Actual Sender:Socket from: p9 Message Recipient:GLOBAL Actual Recipient:p9 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:46 Message Number:295
+ Message Details:
+Message Sender: p15 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:46 Message Number:296
+ Message Details:
+Message Sender: p15 Actual Sender:Socket from: p10 Message Recipient:GLOBAL Actual Recipient:p10 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:46 Message Number:297
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p14 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:59:51 Message Number:298
+ Message Details:p12
+p1
+p11
+p2
+p3
+p5
+p15
+p6
+p7
+p8
+p9
+p10
+r1
+
+Message Sender: p15 Actual Sender:Socket from: p15 Message Recipient:GLOBAL Actual Recipient:p15 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:51 Message Number:299
+ Message Details:
+Message Sender: p15 Actual Sender:Socket from: p11 Message Recipient:GLOBAL Actual Recipient:p11 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:51 Message Number:300
+ Message Details:
+Message Sender: p15 Actual Sender:Socket from: p12 Message Recipient:GLOBAL Actual Recipient:p12 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:51 Message Number:301
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p14 Message Recipient:p14 Actual Recipient:p14 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 20:59:51 Message Number:302
+ Message Details:p12
+p1
+p11
+p2
+p3
+p5
+p15
+p6
+p7
+p8
+p9
+p10
+r1
+Message Sender: p14 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:51 Message Number:303
+ Message Details:
+Message Sender: p14 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:51 Message Number:304
+ Message Details:
+Message Sender: p14 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:58 Message Number:305
+ Message Details:
+Message Sender: p14 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:58 Message Number:306
+ Message Details:
+Message Sender: p14 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:58 Message Number:307
+ Message Details:
+Message Sender: p14 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:58 Message Number:308
+ Message Details:
+Message Sender: p14 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:58 Message Number:309
+ Message Details:
+Message Sender: p14 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:58 Message Number:310
+ Message Details:
+Message Sender: p14 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 20:59:58 Message Number:311
+ Message Details:
+Message Sender: p14 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:10 Message Number:312
+ Message Details:
+Message Sender: p14 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:10 Message Number:313
+ Message Details:
+Message Sender: p14 Actual Sender:Socket from: p7 Message Recipient:GLOBAL Actual Recipient:p7 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:10 Message Number:314
+ Message Details:
+Message Sender: p14 Actual Sender:Socket from: p8 Message Recipient:GLOBAL Actual Recipient:p8 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:10 Message Number:315
+ Message Details:
+Message Sender: p14 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:10 Message Number:316
+ Message Details:
+Message Sender: p14 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:10 Message Number:317
+ Message Details:
+Message Sender: p14 Actual Sender:Socket from: p9 Message Recipient:GLOBAL Actual Recipient:p9 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:10 Message Number:318
+ Message Details:
+Message Sender: p14 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:10 Message Number:319
+ Message Details:
+Message Sender: p14 Actual Sender:Socket from: p10 Message Recipient:GLOBAL Actual Recipient:p10 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:14 Message Number:320
+ Message Details:
+Message Sender: p14 Actual Sender:Socket from: p11 Message Recipient:GLOBAL Actual Recipient:p11 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:14 Message Number:321
+ Message Details:
+Message Sender: p14 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:14 Message Number:322
+ Message Details:
+Message Sender: p14 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:14 Message Number:323
+ Message Details:
+Message Sender: p14 Actual Sender:Socket from: p12 Message Recipient:GLOBAL Actual Recipient:p12 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:14 Message Number:324
+ Message Details:
+Message Sender: p14 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:15 Message Number:325
+ Message Details:
+Message Sender: p14 Actual Sender:Socket from: p15 Message Recipient:GLOBAL Actual Recipient:p15 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:15 Message Number:326
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p13 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 21:00:24 Message Number:327
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+p12
+p11
+p14
+p15
+r1
+
+Message Sender: p14 Actual Sender:Socket from: p14 Message Recipient:GLOBAL Actual Recipient:p14 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:24 Message Number:328
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p13 Message Recipient:p13 Actual Recipient:p13 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 21:00:24 Message Number:329
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+p12
+p11
+p14
+p15
+r1
+Message Sender: p13 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:24 Message Number:330
+ Message Details:
+Message Sender: p13 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:24 Message Number:331
+ Message Details:
+Message Sender: p13 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:24 Message Number:332
+ Message Details:
+Message Sender: p13 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:24 Message Number:333
+ Message Details:
+Message Sender: p13 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:29 Message Number:334
+ Message Details:
+Message Sender: p13 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:29 Message Number:335
+ Message Details:
+Message Sender: p13 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:29 Message Number:336
+ Message Details:
+Message Sender: p13 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:29 Message Number:337
+ Message Details:
+Message Sender: p13 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:29 Message Number:338
+ Message Details:
+Message Sender: p13 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:29 Message Number:339
+ Message Details:
+Message Sender: p13 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:29 Message Number:340
+ Message Details:
+Message Sender: p13 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:29 Message Number:341
+ Message Details:
+Message Sender: p13 Actual Sender:Socket from: p7 Message Recipient:GLOBAL Actual Recipient:p7 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:44 Message Number:342
+ Message Details:
+Message Sender: p13 Actual Sender:Socket from: p9 Message Recipient:GLOBAL Actual Recipient:p9 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:44 Message Number:343
+ Message Details:
+Message Sender: p13 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:44 Message Number:344
+ Message Details:
+Message Sender: p13 Actual Sender:Socket from: p10 Message Recipient:GLOBAL Actual Recipient:p10 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:44 Message Number:345
+ Message Details:
+Message Sender: p13 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:44 Message Number:346
+ Message Details:
+Message Sender: p13 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:44 Message Number:347
+ Message Details:
+Message Sender: p13 Actual Sender:Socket from: p11 Message Recipient:GLOBAL Actual Recipient:p11 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:44 Message Number:348
+ Message Details:
+Message Sender: p13 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:49 Message Number:349
+ Message Details:
+Message Sender: p13 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:49 Message Number:350
+ Message Details:
+Message Sender: p13 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:49 Message Number:351
+ Message Details:
+Message Sender: p13 Actual Sender:Socket from: p14 Message Recipient:GLOBAL Actual Recipient:p14 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:49 Message Number:352
+ Message Details:
+Message Sender: p13 Actual Sender:Socket from: p13 Message Recipient:GLOBAL Actual Recipient:p13 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:49 Message Number:353
+ Message Details:
+Message Sender: p13 Actual Sender:Socket from: p12 Message Recipient:GLOBAL Actual Recipient:p12 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:00:49 Message Number:354
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 21:02:24 Message Number:355
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:r1 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 21:02:24 Message Number:356
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+p12
+p11
+p14
+p13
+p15
+r1
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:r1 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 21:02:24 Message Number:357
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+p12
+p11
+p14
+p13
+p15
+r1
+
+Message Sender: r1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:24 Message Number:358
+ Message Details:
+Message Sender: r1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:24 Message Number:359
+ Message Details:
+Message Sender: r1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:24 Message Number:360
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:24 Message Number:361
+ Message Details:
+Message Sender: r1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:24 Message Number:362
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:29 Message Number:363
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:29 Message Number:364
+ Message Details:
+Message Sender: r1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:29 Message Number:365
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:29 Message Number:366
+ Message Details:
+Message Sender: r1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:29 Message Number:367
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p7 Message Recipient:GLOBAL Actual Recipient:p7 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:29 Message Number:368
+ Message Details:
+Message Sender: r1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:29 Message Number:369
+ Message Details:
+Message Sender: r1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:29 Message Number:370
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p9 Message Recipient:GLOBAL Actual Recipient:p9 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:29 Message Number:371
+ Message Details:
+Message Sender: r1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:29 Message Number:372
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p10 Message Recipient:GLOBAL Actual Recipient:p10 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:30 Message Number:373
+ Message Details:
+Message Sender: r1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:30 Message Number:374
+ Message Details:
+Message Sender: r1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:30 Message Number:375
+ Message Details:
+Message Sender: r1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:30 Message Number:376
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p12 Message Recipient:GLOBAL Actual Recipient:p12 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:30 Message Number:377
+ Message Details:
+Message Sender: r1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:30 Message Number:378
+ Message Details:
+Message Sender: r1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:30 Message Number:379
+ Message Details:
+Message Sender: r1 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:30 Message Number:380
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p14 Message Recipient:GLOBAL Actual Recipient:p14 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:30 Message Number:381
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p13 Message Recipient:GLOBAL Actual Recipient:p13 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:30 Message Number:382
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:02:30 Message Number:383
+ Message Details:
+Message Sender: p16 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 21:03:02 Message Number:384
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p16 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 21:03:02 Message Number:385
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+p12
+p11
+p14
+p13
+p15
+r1
+r1
+
+Message Sender: r1 Actual Sender:Socket from: p16 Message Recipient:p16 Actual Recipient:p16 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 21:03:02 Message Number:386
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+p12
+p11
+p14
+p13
+p15
+r1
+r1
+Message Sender: p16 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:02 Message Number:387
+ Message Details:
+Message Sender: p16 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:02 Message Number:388
+ Message Details:
+Message Sender: p16 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:02 Message Number:389
+ Message Details:
+Message Sender: p16 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:02 Message Number:390
+ Message Details:
+Message Sender: p16 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:05 Message Number:391
+ Message Details:
+Message Sender: p16 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:05 Message Number:392
+ Message Details:
+Message Sender: p16 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:05 Message Number:393
+ Message Details:
+Message Sender: p16 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:05 Message Number:394
+ Message Details:
+Message Sender: p16 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:05 Message Number:395
+ Message Details:
+Message Sender: p16 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:05 Message Number:396
+ Message Details:
+Message Sender: p16 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:05 Message Number:397
+ Message Details:
+Message Sender: p16 Actual Sender:Socket from: p9 Message Recipient:GLOBAL Actual Recipient:p9 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:32 Message Number:398
+ Message Details:
+Message Sender: p16 Actual Sender:Socket from: p7 Message Recipient:GLOBAL Actual Recipient:p7 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:32 Message Number:399
+ Message Details:
+Message Sender: p16 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:32 Message Number:400
+ Message Details:
+Message Sender: p16 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:32 Message Number:401
+ Message Details:
+Message Sender: p16 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:32 Message Number:402
+ Message Details:
+Message Sender: p16 Actual Sender:Socket from: p10 Message Recipient:GLOBAL Actual Recipient:p10 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:32 Message Number:403
+ Message Details:
+Message Sender: p16 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:32 Message Number:404
+ Message Details:
+Message Sender: p16 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:39 Message Number:405
+ Message Details:
+Message Sender: p16 Actual Sender:Socket from: p12 Message Recipient:GLOBAL Actual Recipient:p12 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:39 Message Number:406
+ Message Details:
+Message Sender: p18 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 21:03:39 Message Number:407
+ Message Details:
+Message Sender: p17 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 21:03:39 Message Number:408
+ Message Details:
+Message Sender: p16 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:40 Message Number:409
+ Message Details:
+Message Sender: p16 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:40 Message Number:410
+ Message Details:
+Message Sender: p16 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:40 Message Number:411
+ Message Details:
+Message Sender: p16 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:40 Message Number:412
+ Message Details:
+Message Sender: p16 Actual Sender:Socket from: p14 Message Recipient:GLOBAL Actual Recipient:p14 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:40 Message Number:413
+ Message Details:
+Message Sender: p16 Actual Sender:Socket from: p13 Message Recipient:GLOBAL Actual Recipient:p13 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:40 Message Number:414
+ Message Details:
+Message Sender: p16 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:40 Message Number:415
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p17 Message Recipient:p17 Actual Recipient:p17 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 21:03:40 Message Number:416
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+p12
+p11
+p14
+p13
+p16
+p15
+r1
+r1
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p17 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 21:03:40 Message Number:417
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+p12
+p11
+p14
+p13
+p16
+p15
+r1
+r1
+
+Message Sender: p17 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:40 Message Number:418
+ Message Details:
+Message Sender: p18 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 21:03:40 Message Number:419
+ Message Details:
+Message Sender: p17 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:40 Message Number:420
+ Message Details:
+Message Sender: p17 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:40 Message Number:421
+ Message Details:
+Message Sender: p17 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:40 Message Number:422
+ Message Details:
+Message Sender: p17 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:40 Message Number:423
+ Message Details:
+Message Sender: p17 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:40 Message Number:424
+ Message Details:
+Message Sender: p17 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:40 Message Number:425
+ Message Details:
+Message Sender: p17 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:40 Message Number:426
+ Message Details:
+Message Sender: p17 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:40 Message Number:427
+ Message Details:
+Message Sender: p17 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:40 Message Number:428
+ Message Details:
+Message Sender: p17 Actual Sender:Socket from: p7 Message Recipient:GLOBAL Actual Recipient:p7 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:40 Message Number:429
+ Message Details:
+Message Sender: p17 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:41 Message Number:430
+ Message Details:
+Message Sender: p17 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:41 Message Number:431
+ Message Details:
+Message Sender: p17 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:41 Message Number:432
+ Message Details:
+Message Sender: p17 Actual Sender:Socket from: p9 Message Recipient:GLOBAL Actual Recipient:p9 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:41 Message Number:433
+ Message Details:
+Message Sender: p17 Actual Sender:Socket from: p10 Message Recipient:GLOBAL Actual Recipient:p10 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:41 Message Number:434
+ Message Details:
+Message Sender: p17 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:41 Message Number:435
+ Message Details:
+Message Sender: p17 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:41 Message Number:436
+ Message Details:
+Message Sender: p17 Actual Sender:Socket from: p12 Message Recipient:GLOBAL Actual Recipient:p12 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:41 Message Number:437
+ Message Details:
+Message Sender: p17 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:41 Message Number:438
+ Message Details:
+Message Sender: p17 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:42 Message Number:439
+ Message Details:
+Message Sender: p17 Actual Sender:Socket from: p14 Message Recipient:GLOBAL Actual Recipient:p14 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:42 Message Number:440
+ Message Details:
+Message Sender: p17 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:42 Message Number:441
+ Message Details:
+Message Sender: p17 Actual Sender:Socket from: p13 Message Recipient:GLOBAL Actual Recipient:p13 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:42 Message Number:442
+ Message Details:
+Message Sender: p17 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:42 Message Number:443
+ Message Details:
+Message Sender: p17 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:43 Message Number:444
+ Message Details:
+Message Sender: p17 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:43 Message Number:445
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p18 Message Recipient:p18 Actual Recipient:p18 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 21:03:43 Message Number:446
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+p12
+p11
+p14
+p13
+p16
+p15
+p17
+r1
+r1
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p18 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 21:03:43 Message Number:447
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+p12
+p11
+p14
+p13
+p16
+p15
+p17
+r1
+r1
+
+Message Sender: p18 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:43 Message Number:448
+ Message Details:
+Message Sender: p18 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:43 Message Number:449
+ Message Details:
+Message Sender: p18 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:44 Message Number:450
+ Message Details:
+Message Sender: p18 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:44 Message Number:451
+ Message Details:
+Message Sender: p18 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:44 Message Number:452
+ Message Details:
+Message Sender: p18 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:44 Message Number:453
+ Message Details:
+Message Sender: p18 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:44 Message Number:454
+ Message Details:
+Message Sender: p18 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:44 Message Number:455
+ Message Details:
+Message Sender: p18 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:44 Message Number:456
+ Message Details:
+Message Sender: p18 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:44 Message Number:457
+ Message Details:
+Message Sender: p18 Actual Sender:Socket from: p7 Message Recipient:GLOBAL Actual Recipient:p7 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:44 Message Number:458
+ Message Details:
+Message Sender: p18 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:44 Message Number:459
+ Message Details:
+Message Sender: p18 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:44 Message Number:460
+ Message Details:
+Message Sender: p18 Actual Sender:Socket from: p9 Message Recipient:GLOBAL Actual Recipient:p9 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:44 Message Number:461
+ Message Details:
+Message Sender: p18 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:44 Message Number:462
+ Message Details:
+Message Sender: p18 Actual Sender:Socket from: p10 Message Recipient:GLOBAL Actual Recipient:p10 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:44 Message Number:463
+ Message Details:
+Message Sender: p18 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:44 Message Number:464
+ Message Details:
+Message Sender: p18 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:44 Message Number:465
+ Message Details:
+Message Sender: p18 Actual Sender:Socket from: p12 Message Recipient:GLOBAL Actual Recipient:p12 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:44 Message Number:466
+ Message Details:
+Message Sender: p18 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:44 Message Number:467
+ Message Details:
+Message Sender: p18 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:45 Message Number:468
+ Message Details:
+Message Sender: p18 Actual Sender:Socket from: p14 Message Recipient:GLOBAL Actual Recipient:p14 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:45 Message Number:469
+ Message Details:
+Message Sender: p18 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:45 Message Number:470
+ Message Details:
+Message Sender: p18 Actual Sender:Socket from: p13 Message Recipient:GLOBAL Actual Recipient:p13 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:45 Message Number:471
+ Message Details:
+Message Sender: p18 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:45 Message Number:472
+ Message Details:
+Message Sender: p18 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:45 Message Number:473
+ Message Details:
+Message Sender: p18 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:46 Message Number:474
+ Message Details:
+Message Sender: p18 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:46 Message Number:475
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p18 Message Recipient:p18 Actual Recipient:p18 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 21:03:46 Message Number:476
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+p12
+p11
+p14
+p13
+p16
+p15
+p18
+p17
+r1
+r1
+Message Sender: p17 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:46 Message Number:477
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p18 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 21:03:46 Message Number:478
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+p12
+p11
+p14
+p13
+p16
+p15
+p18
+p17
+r1
+r1
+
+Message Sender: p18 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:03:46 Message Number:479
+ Message Details:
+Message Sender: p19 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 21:04:04 Message Number:480
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p19 Message Recipient:p19 Actual Recipient:p19 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 21:04:04 Message Number:481
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+p12
+p11
+p14
+p13
+p16
+p15
+p18
+p17
+r1
+r1
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p19 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 21:04:04 Message Number:482
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+p12
+p11
+p14
+p13
+p16
+p15
+p18
+p17
+r1
+r1
+
+Message Sender: p19 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:05 Message Number:483
+ Message Details:
+Message Sender: p19 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:05 Message Number:484
+ Message Details:
+Message Sender: p19 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:05 Message Number:485
+ Message Details:
+Message Sender: p19 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:05 Message Number:486
+ Message Details:
+Message Sender: p19 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:07 Message Number:487
+ Message Details:
+Message Sender: p19 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:07 Message Number:488
+ Message Details:
+Message Sender: p19 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:07 Message Number:489
+ Message Details:
+Message Sender: p19 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:07 Message Number:490
+ Message Details:
+Message Sender: p19 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:07 Message Number:491
+ Message Details:
+Message Sender: p19 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:07 Message Number:492
+ Message Details:
+Message Sender: p19 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:07 Message Number:493
+ Message Details:
+Message Sender: p19 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:46 Message Number:494
+ Message Details:
+Message Sender: p19 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:46 Message Number:495
+ Message Details:
+Message Sender: p19 Actual Sender:Socket from: p9 Message Recipient:GLOBAL Actual Recipient:p9 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:46 Message Number:496
+ Message Details:
+Message Sender: p19 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:46 Message Number:499
+ Message Details:
+Message Sender: p19 Actual Sender:Socket from: p10 Message Recipient:GLOBAL Actual Recipient:p10 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:46 Message Number:498
+ Message Details:
+Message Sender: p19 Actual Sender:Socket from: p7 Message Recipient:GLOBAL Actual Recipient:p7 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:46 Message Number:497
+ Message Details:
+Message Sender: p19 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:46 Message Number:500
+ Message Details:
+Message Sender: p19 Actual Sender:Socket from: p12 Message Recipient:GLOBAL Actual Recipient:p12 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:58 Message Number:501
+ Message Details:
+Message Sender: p19 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:58 Message Number:503
+ Message Details:
+Message Sender: p20 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_PORTAL Message Date and Time:03/01/2020 21:04:58 Message Number:502
+ Message Details:
+Message Sender: p19 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:59 Message Number:504
+ Message Details:
+Message Sender: p19 Actual Sender:Socket from: p14 Message Recipient:GLOBAL Actual Recipient:p14 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:59 Message Number:505
+ Message Details:
+Message Sender: p19 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:59 Message Number:506
+ Message Details:
+Message Sender: p19 Actual Sender:Socket from: p13 Message Recipient:GLOBAL Actual Recipient:p13 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:59 Message Number:508
+ Message Details:
+Message Sender: p19 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:04:59 Message Number:507
+ Message Details:
+Message Sender: p19 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:03 Message Number:509
+ Message Details:
+Message Sender: p19 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:03 Message Number:510
+ Message Details:
+Message Sender: p19 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:03 Message Number:511
+ Message Details:
+Message Sender: p19 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:03 Message Number:512
+ Message Details:
+Message Sender: p19 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:03 Message Number:513
+ Message Details:
+Message Sender: r1 Actual Sender:Socket from: p20 Message Recipient:p20 Actual Recipient:p20 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 21:05:04 Message Number:514
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+p12
+p11
+p14
+p13
+p16
+p15
+p18
+p17
+p19
+r1
+r1
+Message Sender: r1 Actual Sender:Socket from: r1 Message Recipient:p20 Actual Recipient:r1 Message Type:LOAD_TABLE Message Date and Time:03/01/2020 21:05:04 Message Number:515
+ Message Details:p1
+p2
+p3
+p5
+p6
+p7
+p8
+p9
+p10
+p12
+p11
+p14
+p13
+p16
+p15
+p18
+p17
+p19
+r1
+r1
+
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:09 Message Number:516
+ Message Details:
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:09 Message Number:517
+ Message Details:
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:09 Message Number:518
+ Message Details:
+Message Sender: p20 Actual Sender:Socket from: p2 Message Recipient:GLOBAL Actual Recipient:p2 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:09 Message Number:519
+ Message Details:
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:09 Message Number:520
+ Message Details:
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:09 Message Number:521
+ Message Details:
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:09 Message Number:522
+ Message Details:
+Message Sender: p20 Actual Sender:Socket from: p3 Message Recipient:GLOBAL Actual Recipient:p3 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:14 Message Number:523
+ Message Details:
+Message Sender: p20 Actual Sender:Socket from: p5 Message Recipient:GLOBAL Actual Recipient:p5 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:14 Message Number:527
+ Message Details:
+Message Sender: p20 Actual Sender:Socket from: p7 Message Recipient:GLOBAL Actual Recipient:p7 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:14 Message Number:525
+ Message Details:
+Message Sender: p20 Actual Sender:Socket from: p6 Message Recipient:GLOBAL Actual Recipient:p6 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:14 Message Number:526
+ Message Details:
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:14 Message Number:524
+ Message Details:
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:14 Message Number:528
+ Message Details:
+Message Sender: p20 Actual Sender:Socket from: p9 Message Recipient:GLOBAL Actual Recipient:p9 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:14 Message Number:529
+ Message Details:
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:14 Message Number:530
+ Message Details:
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:28 Message Number:531
+ Message Details:
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:28 Message Number:532
+ Message Details:
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:28 Message Number:533
+ Message Details:
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:28 Message Number:534
+ Message Details:
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:28 Message Number:535
+ Message Details:
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:28 Message Number:536
+ Message Details:
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:28 Message Number:537
+ Message Details:
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:33 Message Number:538
+ Message Details:
+Message Sender: p20 Actual Sender:Socket from: r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:33 Message Number:539
+ Message Details:
+Message Sender: p20 Actual Sender:Socket from: p13 Message Recipient:GLOBAL Actual Recipient:p13 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:33 Message Number:540
+ Message Details:
+Message Sender: p20 Actual Sender:Socket from: p14 Message Recipient:GLOBAL Actual Recipient:p14 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:33 Message Number:541
+ Message Details:
+Message Sender: p20 Actual Sender:Socket from: p12 Message Recipient:GLOBAL Actual Recipient:p12 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:33 Message Number:542
+ Message Details:
+Message Sender: p20 Actual Sender:Socket from: p10 Message Recipient:GLOBAL Actual Recipient:p10 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:33 Message Number:543
+ Message Details:
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:33 Message Number:544
+ Message Details:
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:41 Message Number:545
+ Message Details:
+Message Sender: p20 Actual Sender:r1 Message Recipient:GLOBAL Actual Recipient:r1 Message Type:ADD_METAAGENT Message Date and Time:03/01/2020 21:05:41 Message Number:546
+ Message Details:

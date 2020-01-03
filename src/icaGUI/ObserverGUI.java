@@ -5,7 +5,6 @@
  */
 package icaGUI;
 
-import com.sun.glass.events.KeyEvent;
 import ica.main.GuiMain;
 import icamessages.Message;
 import icamessages.MessageType;
@@ -18,7 +17,7 @@ import icamonitors.GUIMonitor;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
 import java.io.IOException;
 import java.net.Socket;
 import java.util.logging.Level;

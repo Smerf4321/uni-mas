@@ -6,30 +6,19 @@
 package icaGUI;
 
 
-import ica.main.GuiMain;
 import icamessages.Message;
-import icamessages.MessageType;
 import icametaagent.Portal;
 import icametaagent.Router;
-import icametaagent.SocketAgent;
-import icametaagent.User;
-import icamonitors.CMDMonitor;
-import icamonitors.GUIMonitor;
 import java.awt.Dimension;
 import java.awt.GridLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.net.Socket;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.JButton;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
@@ -49,10 +38,9 @@ import javax.swing.table.DefaultTableModel;
 public class ObserverInterface {
 
     private final Dimension size;
-    JPanel buttonsPanel;
     protected int counter = 0;
 
-    final String[] columnNames = {"Sender", "Actual Sender", "Recipient", "Actual Recipient", "Message Type", "Message Data", "Date"};
+    final String[] columnNames = {"Sender", "Actual Sender", "Recipient", "Actual Recipient", "Message Type", "Message Data", "Date", "Message Number"};
     JTable record;
     JScrollPane scrollPane;
     final JPanel mainPanel;
@@ -69,28 +57,56 @@ public class ObserverInterface {
 
         mainPanel = new JPanel(new GridLayout(1, 1));
         mainPanel.setSize(size);
-
-
-        mainPanel.add(new JLabel("The total number of messages is: " + counter));
         mainPanel.add(scrollPane);
     }
 
-    public void update(Message msg,String actualSender, String actualRecipient) {
-        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
-        Date date = new Date();
-        DefaultTableModel model = (DefaultTableModel) record.getModel();
-        model.setColumnCount(500);
-        model.addRow(new Object[]{msg.getSender(),actualSender, msg.getRecipient(), actualRecipient, msg.getMessageType(),msg.getMessageDetails(), formatter.format(date)});
-        String str = msg.getSender() + " " + actualSender + " " + msg.getRecipient() + " " + actualRecipient + " " + msg.getMessageType() + " " + formatter.format(date) + "\n" + msg.getMessageDetails() + "\n";
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("JTableData.txt"))) {
-            writer.write(str);
-        } catch (IOException ex) {
+    public void update(Message msg,String actualSender, String actualRecipient) 
+    {
+        FileWriter fileWriter = null;
+        
+            SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+            Date date = new Date();
+            DefaultTableModel model = (DefaultTableModel) record.getModel();
+            counter = counter+1;
+            /**
+             * Writes to a file the same data that is to be put into the table.
+             */
+            String str = "Message Sender: " + msg.getSender() + " Actual Sender:" + actualSender + " Message Recipient:" + msg.getRecipient() + " Actual Recipient:" + actualRecipient + " Message Type:" + msg.getMessageType() + " Message Date and Time:" + formatter.format(date) + " Message Number:" + counter + "\n Message Details:" + msg.getMessageDetails() + "\n";
+            try {
+            fileWriter = new FileWriter("JTableData.txt", true);
+            BufferedWriter Writer = new BufferedWriter(fileWriter);
+            Writer.write(str);
+            Writer.close();
+            }
+            catch (IOException ex) 
+            {
             Logger.getLogger(ObserverInterface.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            /**
+             * Checks for if the current number of rows exceeds 500 and if so then
+             * removes first one from the table and adds a new one at the end.
+             */
+            if (record.getRowCount() < 500)
+            {
+                model.addRow(new Object[]{msg.getSender(),actualSender, msg.getRecipient(), actualRecipient, msg.getMessageType(),msg.getMessageDetails(), formatter.format(date),counter});
+                record.setModel(model);
+                //auto scroll
+                record.changeSelection(record.getRowCount()-1, 0, false, false);
+            }
+            else
+            {
+                model.removeRow(0);
+                model.addRow(new Object[]{msg.getSender(),actualSender, msg.getRecipient(), actualRecipient, msg.getMessageType(),msg.getMessageDetails(), formatter.format(date),counter});
+                record.setModel(model);
+                //auto scroll
+                record.changeSelection(record.getRowCount()-1, 0, false, false);
+            }
+            mainPanel.revalidate();
+            mainPanel.repaint();
+            
+            
+        } 
         }
-        record.setModel(model);
-        //auto scroll
-        counter = counter++;
-        record.changeSelection(record.getRowCount()-1, 0, false, false);
-    }
+    
+        
 
-}
